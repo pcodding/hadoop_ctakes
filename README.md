@@ -13,3 +13,6 @@ The `./pig` folder contains two pig scripts used to invoke the two UDFs:
 
 * parse_page.pig - Invokes the PARSEPAGE UDF for parsing Wikipedia articles and stores in HCatalog
 * process_pages.pig - Process pages from HCatalog through the PROCESSPAGE UDF, storing them back to HCatalog for upstream analytics.
+
+# Building
+This is a maven project, and can be built using `mvn clean package`.  The jar will be registered within the Pig script.
