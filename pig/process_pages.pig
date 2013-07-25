@@ -1,5 +1,8 @@
 register piggybank.jar;
+register hadoop_ctakes-0.0.1-SNAPSHOT.jar;
+
 DEFINE PROCESSPAGE com.hortonworks.mayo.ctakes.PROCESSPAGE();
+
 ARTICLES = load 'wikipedia_pages' using org.apache.hcatalog.pig.HCatLoader();
 F_ARTICLES = FILTER ARTICLES BY (title matches 'Autism');
 ANNOTATED_ARTICLES = FOREACH F_ARTICLES GENERATE FLATTEN(PROCESSPAGE($0, $1));

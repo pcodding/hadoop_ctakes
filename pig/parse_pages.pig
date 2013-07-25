@@ -1,5 +1,5 @@
 register piggybank.jar;
-register mayo-0.0.1-SNAPSHOT.jar;
+register hadoop_ctakes-0.0.1-SNAPSHOT.jar;
 
 DEFINE PARSEPAGE com.hortonworks.mayo.PARSEPAGE();
 
