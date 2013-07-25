@@ -1,4 +1,4 @@
-register piggybank.jar;
+register /usr/lib/pig/piggybank.jar;
 register hadoop_ctakes-0.0.1-SNAPSHOT.jar;
 
 DEFINE PROCESSPAGE com.hortonworks.mayo.ctakes.PROCESSPAGE();

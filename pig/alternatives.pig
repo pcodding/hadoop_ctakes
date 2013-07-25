@@ -5,7 +5,7 @@ set mapred.child.java.opts -Xmx6144m;
 set mapred.output.compress true;
 set hive.exec.compress.output true;
 
-register piggybank.jar;
+register /usr/lib/pig/piggybank.jar;
 register hadoop_ctakes-0.0.1-SNAPSHOT.jar
 
 DEFINE PROCESSPAGE com.hortonworks.mayo.ctakes.PROCESSPAGE();
@@ -22,7 +22,7 @@ set mapred.child.java.opts -Xmx7256m;
 set mapred.output.compress true;
 set hive.exec.compress.output true;
 
-register piggybank.jar;
+register /usr/lib/pig/piggybank.jar;
 register hadoop_ctakes-0.0.1-SNAPSHOT.jar
 
 DEFINE PROCESSPAGE com.hortonworks.mayo.ctakes.PROCESSPAGE();
