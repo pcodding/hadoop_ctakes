@@ -25,7 +25,7 @@ Because this code should be run as a non-privileged user, one must first be crea
 
 	# adduser –g 100 mayoclinic
 	# passwd mayoclinic
-	# /usr/lib/hadoop/sbin/hadoop-create-user.sh myoclonic
+	# /usr/lib/hadoop/sbin/hadoop-create-user.sh mayoclinic
 	
 We'll also need to add SVN to checkout the Apache cTAKES code.
 	# yum -y install svn
