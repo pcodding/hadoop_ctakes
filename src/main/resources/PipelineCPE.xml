@@ -30,7 +30,7 @@
 <casProcessors casPoolSize="3" processingUnitThreadCount="1">
 <casProcessor deployment="integrated" name="MayoPoTPipeline">
 <descriptor>
-<import location="PipelineTest.xml"/>
+<import location="config/PipelineTest.xml"/>
 </descriptor>
 <deploymentParameters/>
 <errorHandling>
