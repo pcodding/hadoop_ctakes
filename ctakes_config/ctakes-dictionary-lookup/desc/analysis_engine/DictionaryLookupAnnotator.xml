@@ -134,7 +134,7 @@
               <nameValuePair>
                 <name>IndexDirectory</name>
                 <value>
-                  <string>org/apache/ctakes/dictionary/lookup/drug_index</string>
+                  <string>/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/drug_index</string>
                 </value>
               </nameValuePair>
             </configurationParameterSettings>
@@ -173,7 +173,7 @@
               <nameValuePair>
                 <name>IndexDirectory</name>
                 <value>
-                  <string>org/apache/ctakes/dictionary/lookup/OrangeBook</string>
+                  <string>/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/OrangeBook</string>
                 </value>
               </nameValuePair>
             </configurationParameterSettings>
@@ -212,7 +212,7 @@
               <nameValuePair>
                 <name>IndexDirectory</name>
                 <value>
-                  <string>org/apache/ctakes/dictionary/lookup/snomed-like_sample</string>
+                  <string>/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/snomed-like_sample</string>
                 </value>
               </nameValuePair>
             </configurationParameterSettings>
@@ -224,7 +224,7 @@
         <name>LookupDescriptorFile</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/dictionary/lookup/LookupDesc.xml</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/LookupDesc.xml</fileUrl>
         </fileResourceSpecifier>
         <implementationName>org.apache.ctakes.core.resource.FileResourceImpl</implementationName>
       </externalResource>
@@ -232,7 +232,7 @@
         <name>CodesListIndexDirectory</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/dictionary/lookup/snomed-like_codes_sample</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/snomed-like_codes_sample</fileUrl>
         </fileResourceSpecifier>
         <implementationName>org.apache.ctakes.core.resource.FileResourceImpl</implementationName>
       </externalResource>

@@ -209,7 +209,7 @@
                         <nameValuePair>
                             <name>CmdCacheFileLocation</name>
                             <value>
-                                <string>org/apache/ctakes/lvg/2005_norm.voc</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/lvg/2005_norm.voc</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
@@ -264,7 +264,7 @@
                         <nameValuePair>
                             <name>LemmaCacheFileLocation</name>
                             <value>
-                                <string>org/apache/ctakes/lvg/2005_lemma.voc</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/lvg/2005_lemma.voc</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
@@ -320,7 +320,7 @@
                             <name>LvgCmdApi</name>
                             <description/>
                             <fileResourceSpecifier>
-                                <fileUrl>file:org/apache/ctakes/lvg/data/config/lvg.properties</fileUrl>
+                                <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/lvg/data/config/lvg.properties</fileUrl>
                             </fileResourceSpecifier>
                             <implementationName>org.apache.ctakes.lvg.resource.LvgCmdApiResourceImpl</implementationName>
                         </externalResource>
@@ -472,7 +472,7 @@
                         <nameValuePair>
                             <name>PosModelFile</name>
                             <value>
-                                <string>org/apache/ctakes/postagger/models/mayo-pos.zip</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/postagger/models/mayo-pos.zip</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
@@ -484,7 +484,7 @@
                         <nameValuePair>
                             <name>TagDictionary</name>
                             <value>
-                                <string>org/apache/ctakes/postagger/models/tag.dictionary.txt</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/postagger/models/tag.dictionary.txt</string>
                             </value>
                         </nameValuePair>
                     </configurationParameterSettings>

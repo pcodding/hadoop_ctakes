@@ -78,7 +78,7 @@
 <name>MaxentModelFile</name>
 <description></description>
 <fileResourceSpecifier>
-<fileUrl>file:org/apache/ctakes/core/sentdetect/sdmed.mod</fileUrl>
+<fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/core/sentdetect/sdmed.mod</fileUrl>
 </fileResourceSpecifier>
 <implementationName>org.apache.ctakes.core.resource.SuffixMaxentModelResourceImpl</implementationName>
 </externalResource>

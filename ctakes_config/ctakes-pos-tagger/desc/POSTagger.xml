@@ -54,7 +54,8 @@
 <nameValuePair>
 <name>PosModelFile</name>
 <value>
-<string>org/apache/ctakes/postagger/models/mayo-pos.zip</string>
+<string>/tmp/ctakes_config/org/apache/ctakes/postagger/models/mayo-pos.zip</string>
+
 </value>
 </nameValuePair>
 <nameValuePair>
@@ -66,7 +67,7 @@
 <nameValuePair>
 <name>TagDictionary</name>
 <value>
-<string>org/apache/ctakes/postagger/models/tag.dictionary.txt</string>
+<string>/tmp/ctakes_config/org/apache/ctakes/postagger/models/tag.dictionary.txt</string>
 </value>
 </nameValuePair>
 </configurationParameterSettings>

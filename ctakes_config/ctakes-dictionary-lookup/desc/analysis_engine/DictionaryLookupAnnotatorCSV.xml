@@ -101,7 +101,7 @@
         <name>LookupDescriptorFile</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/dictionary/lookup/LookupDesc_csv_sample.xml</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/LookupDesc_csv_sample.xml</fileUrl>
         </fileResourceSpecifier>
         <implementationName>org.apache.ctakes.core.resource.FileResourceImpl</implementationName>
       </externalResource>
@@ -109,7 +109,7 @@
         <name>DictionaryFileResource</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/dictionary/lookup/dictionary1.csv</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/dictionary1.csv</fileUrl>
         </fileResourceSpecifier>
         <implementationName>org.apache.ctakes.core.resource.FileResourceImpl</implementationName>
       </externalResource>
@@ -144,7 +144,7 @@
               <nameValuePair>
                 <name>IndexDirectory</name>
                 <value>
-                  <string>org/apache/ctakes/dictionary/lookup/drug_index</string>
+                  <string>/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/drug_index</string>
                 </value>
               </nameValuePair>
             </configurationParameterSettings>
@@ -183,7 +183,7 @@
               <nameValuePair>
                 <name>IndexDirectory</name>
                 <value>
-                  <string>org/apache/ctakes/dictionary/lookup/OrangeBook</string>
+                  <string>/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/OrangeBook</string>
                 </value>
               </nameValuePair>
             </configurationParameterSettings>

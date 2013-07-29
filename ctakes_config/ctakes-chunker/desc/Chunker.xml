@@ -37,7 +37,7 @@
 			<nameValuePair>
 				<name>ChunkerModelFile</name>
 				<value>
-					<string>org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip
+					<string>/tmp/ctakes_config/org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip
 					</string>
 				</value>
 			</nameValuePair>
@@ -92,7 +92,7 @@
 				<name>ChunkerModelFile</name>
 				<description></description>
 				<fileResourceSpecifier>
-					<fileUrl>file:org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip
+					<fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip
 					</fileUrl>
 				</fileResourceSpecifier>
 				<implementationName>org.apache.ctakes.core.resource.FileResourceImpl

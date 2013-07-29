@@ -86,7 +86,7 @@
               <nameValuePair>
                 <name>IndexDirectory</name>
                 <value>
-                  <string>org/apache/ctakes/dictionary/lookup/assertion_cue_phrase_index</string>
+                  <string>/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/assertion_cue_phrase_index</string>
                 </value>
               </nameValuePair>
             </configurationParameterSettings>
@@ -98,7 +98,7 @@
         <name>LookupDescriptorFile</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/dictionary/lookup/AssertionLookupDesc.xml</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/dictionary/lookup/AssertionLookupDesc.xml</fileUrl>
         </fileResourceSpecifier>
         <implementationName>org.apache.ctakes.core.resource.FileResourceImpl</implementationName>
       </externalResource>

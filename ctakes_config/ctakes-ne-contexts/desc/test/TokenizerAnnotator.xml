@@ -101,7 +101,7 @@
 				<name>HyphFreqFile</name>
 				<description />
 				<fileResourceSpecifier>
-					<fileUrl>file:org/apache/ctakes/core/tokenizer/hyphenated.txt
+					<fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/core/tokenizer/hyphenated.txt
 					</fileUrl>
 				</fileResourceSpecifier>
 				<implementationName>org.apache.ctakes.core.resource.StringIntegerMapResourceImpl

@@ -90,35 +90,35 @@
         <name>assertionModelResourceImpl</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/assertion/models/i2b2.model</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/assertion/models/i2b2.model</fileUrl>
         </fileResourceSpecifier>
       </externalResource>
       <externalResource>
         <name>scopeModelResourceImpl</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/assertion/models/scope.model</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/assertion/models/scope.model</fileUrl>
         </fileResourceSpecifier>
       </externalResource>
       <externalResource>
         <name>cueModelResourceImpl</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/assertion/models/cue.model</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/assertion/models/cue.model</fileUrl>
         </fileResourceSpecifier>
       </externalResource>
       <externalResource>
         <name>enabledFeaturesResourceImpl</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/assertion/models/featureFile11b</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/assertion/models/featureFile11b</fileUrl>
         </fileResourceSpecifier>
       </externalResource>
       <externalResource>
         <name>posModelResourceImpl</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:org/apache/ctakes/assertion/models/pos.model</fileUrl>
+          <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/assertion/models/pos.model</fileUrl>
         </fileResourceSpecifier>
       </externalResource>
     </externalResources>

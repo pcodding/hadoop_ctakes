@@ -209,7 +209,7 @@
                         <nameValuePair>
                             <name>CmdCacheFileLocation</name>
                             <value>
-                                <string>org/apache/ctakes/lvg/2005_norm.voc</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/lvg/2005_norm.voc</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
@@ -264,7 +264,7 @@
                         <nameValuePair>
                             <name>LemmaCacheFileLocation</name>
                             <value>
-                                <string>org/apache/ctakes/lvg/2005_lemma.voc</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/lvg/2005_lemma.voc</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
@@ -320,7 +320,7 @@
                             <name>LvgCmdApi</name>
                             <description/>
                             <fileResourceSpecifier>
-                                <fileUrl>file:org/apache/ctakes/lvg/data/config/lvg.properties</fileUrl>
+                                <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/lvg/data/config/lvg.properties</fileUrl>
                             </fileResourceSpecifier>
                             <implementationName>org.apache.ctakes.lvg.resource.LvgCmdApiResourceImpl</implementationName>
                         </externalResource>
@@ -423,7 +423,7 @@
 						<nameValuePair>
 						<name>SentenceModelFile</name>
 						<value>
-						<string>org/apache/ctakes/core/sentdetect/sd-med-model.zip</string>
+						<string>/tmp/ctakes_config/org/apache/ctakes/core/sentdetect/sd-med-model.zip</string>
 						</value>
 						</nameValuePair>                        
                     </configurationParameterSettings>
@@ -526,7 +526,7 @@
                         <nameValuePair>
                             <name>PosModelFile</name>
                             <value>
-                                <string>org/apache/ctakes/postagger/models/mayo-pos.zip</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/postagger/models/mayo-pos.zip</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
@@ -538,7 +538,7 @@
                         <nameValuePair>
                             <name>TagDictionary</name>
                             <value>
-                                <string>org/apache/ctakes/postagger/models/tag.dictionary.txt</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/postagger/models/tag.dictionary.txt</string>
                             </value>
                         </nameValuePair>
                     </configurationParameterSettings>
@@ -594,7 +594,7 @@
                         <nameValuePair>
                             <name>ChunkerModelFile</name>
                             <value>
-                                <string>org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip</string>
+                                <string>/tmp/ctakes_config/org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
@@ -647,7 +647,7 @@
                             <name>ChunkerModelFile</name>
                             <description/>
                             <fileResourceSpecifier>
-                                <fileUrl>file:org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip</fileUrl>
+                                <fileUrl>file:/tmp/ctakes_config/org/apache/ctakes/chunker/models/chunk-model.claims-1.5.zip</fileUrl>
                             </fileResourceSpecifier>
                             <implementationName>org.apache.ctakes.core.resource.FileResourceImpl</implementationName>
                         </externalResource>
