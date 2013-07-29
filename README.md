@@ -72,10 +72,10 @@ Now that we have our code checked out we need to add some of the dependencies be
 
 ### cTAKES Dependencies
 
-We'll need to checkout and install the cTAKES 3.1.0-SNAPSHOT code in order to build the PIG UDFs.
+We'll need to checkout and install the cTAKES 3.1.0-SNAPSHOT code in order to build the PIG UDFs. It's important to note that we need a specific revision of trunk  noted below:
 
 	$ cd ~/src
-	$ svn co https://svn.apache.org/repos/asf/ctakes/trunk/
+	$ svn co https://svn.apache.org/repos/asf/ctakes/trunk/@1499008
 
 In order to conserve space, we'll be building/installing select cTAKES packages, then removing the source code.
 
@@ -91,7 +91,7 @@ The Pig UDF's need to know where the cTAKES config and resources are located.  W
 
 	$ cd ~/src/hadoop_ctakes
 	$ mkdir /tmp/ctakes_config
-	$ cp -r src/main/resources/config/* /tmp/ctakes_config
+	$ cp -r ctakes_config* /tmp/ctakes_config
 	$ chmod -R 777 /tmp/ctakes_config
 	$ echo 'configBasePath=/tmp/ctakes_config' > src/main/resources/config.properties
 
