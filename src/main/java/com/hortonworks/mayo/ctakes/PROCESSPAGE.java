@@ -39,7 +39,7 @@ import com.hortonworks.mayo.ctakes.cr.TuplesCollectionReader;
  * 
  */
 public class PROCESSPAGE extends EvalFunc<Tuple> {
-	private static final int MAX_TIMEOUT_MS = 10 * 60 * 1000; // 10 mins
+	private static final int MAX_TIMEOUT_MS = 30 * 60 * 1000; // 30 mins
 	TupleFactory tf = TupleFactory.getInstance();
 	BagFactory bf = BagFactory.getInstance();
 	long numTuplesProcessed = 0;
