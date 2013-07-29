@@ -91,7 +91,7 @@ The Pig UDF's need to know where the cTAKES config and resources are located.  W
 
 	$ cd ~/src/hadoop_ctakes
 	$ mkdir /tmp/ctakes_config
-	$ cp -r ctakes_config* /tmp/ctakes_config
+	$ cp -r ctakes_config/* /tmp/ctakes_config
 	$ chmod -R 777 /tmp/ctakes_config
 	$ echo 'configBasePath=/tmp/ctakes_config' > src/main/resources/config.properties
 
@@ -155,7 +155,7 @@ The pig job will run to completion and let you know that 12 records were written
 
 To confirm we have the text parsed as well, we can run the following query:
 
-	$ hive -e "select title,text from wikipedia_pages where title ='Autism'" 
+	$ hive -e "select title,text from wikipedia_pages where title ='Anarchism'" 
 
 Because there are so many jars that are required to run cTAKES, a shell script is required to populate all of the dependencies to be passed to pig.  We'll use a ruby one liner to build all of the arguments that need to be passed to ensure the jars are visible to pig.  This one liner will build a shell script that we can use to invoke pig with all of the necessary jars.
 
@@ -168,4 +168,4 @@ At this point you will now have an executable shell script called pig_ctakes.sh 
 	
 Once this has been run, you can use the following hive statement to look at the annotations produced by the pig script:
 
-	hive -e "select title,text,annotations from wikipedia_pages_annotated where title ='Autism'" 
+	hive -e "select title,text,annotations from wikipedia_pages_annotated where title ='Anarchism'" 
