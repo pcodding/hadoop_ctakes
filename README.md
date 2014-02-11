@@ -62,13 +62,6 @@ https://github.com/pcodding/hadoop_ctakes.  We'll be pulling the code down using
 	$ cd hadoop_ctakes
 
 ## Adding Maven Dependencies
-Now that we have our code checked out we need to add some of the dependencies before it can be built.
-
-### Hadoop Dependencies
-
-	$ mvn install:install-file -DgroupId=org.apache.hadoop -DartifactId=pig -Dversion=0.11.1.3 -Dpackaging=jar -Dfile=/usr/lib/pig/pig-0.11.1.1.3.0.0-107.jar
-	$ mvn install:install-file -DgroupId=org.apache.hadoop -DartifactId=hadoop-core -Dversion=1.2.0.1.3 -Dpackaging=jar -Dfile=/usr/lib/hadoop/hadoop-core-1.2.0.1.3.0.0-107.jar
-	$ mvn install:install-file -DgroupId=org.joda -DartifactId=time -Dversion=2.2 -Dpackaging=jar -Dfile=/usr/lib/oozie/share/lib/pig/joda-time-1.6.jar
 
 ### cTAKES Dependencies
 
